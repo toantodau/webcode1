@@ -1,0 +1,56 @@
+.mitavideo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.avatar{
+    width: 200px; 
+    height: 200px; 
+    border-radius: 10px; 
+    float: left; 
+    margin-right: 15px;
+}
+
+.ketluan{
+    font-family: 'co-re';
+    color: white;
+}
+
+h2{
+    font-family: 'co-re';
+}
+
+.thongtin{
+    font-family: 'rbt-bold';
+    color: white;
+}
+
+.chutrang{
+    font-family: 'rbt-bold';
+    color: white;
+}
+
+.chuvang{
+    font-family: 'co-re';
+    color: yellow;
+    font-size: 20px;
+
+}
+@font-face {
+    font-family:'rbt-bold' ;
+    src: url(../font/Roboto/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+    font-family:'co-re' ;
+    src: url(../font/Coiny-Regular.ttf);
+}
+
+.bodaugach{
+    text-decoration: none;
+}
